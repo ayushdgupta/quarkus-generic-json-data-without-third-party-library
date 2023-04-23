@@ -1,0 +1,16 @@
+greeting:
+  message: "hello"
+
+quarkus:
+  hibernate-orm:
+    database:
+      generation: none
+  http:
+    port: 8086
+  datasource:
+    db-kind: postgresql
+    username: postgres
+    password: root
+    jdbc:
+      url: jdbc:postgresql://localhost:5432/json-test-generic-demo
+      max-size: 16
